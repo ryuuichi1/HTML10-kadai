@@ -30,17 +30,17 @@ header {
 }
 
 .img1 {
-  background-image: url("img/flow01.png");
+  background-image: url("flow01.png");
   height: 150px;
   background-size: cover;
 }
 .img2 {
-  background-image: url("img/flow02.png");
+  background-image: url("flow02.png");
   height: 150px;
   background-size: cover;
 }
 .img3 {
-  background-image: url("img/flow03.png");
+  background-image: url("flow03.png");
   height: 150px;
   background-size: cover;
 }
@@ -69,7 +69,7 @@ footer {
     background-position: center;
   }
   .img2 {
-    background-position: center;text-align: center;
+    background-position: center;
   }
   .img3 {
     background-position: center;
