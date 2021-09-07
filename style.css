@@ -3,6 +3,19 @@
   margin: 0;
   padding: 0;
 }
+/* 
+chapter10　課題
+条件１　ヘッダー　５０ｐｘ〇
+条件２　ヘッダー　メインコンテンツ間　５０ｐｘ〇
+条件3　画像高さ　１５０ｐｘ　〇
+条件４　step　画面幅９０％〇
+条件５　全体画面幅１００％〇
+条件６　step間２０ｐｘ〇
+条件７　メインコンテンツ　フッター間　５０ｐｘ〇
+条件８　フッター５０ｐｘ〇
+
+*/
+
 header {
   width: 100%;
   height: 50px;
@@ -54,24 +67,39 @@ footer {
   background-color: #aaaaaa;
 }
 @media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+    /* 条件５ */
+  }
+  .header {
+    height: 50px; /*  条件１ */
+  }
   .main-contents {
     display: block;
     width: 100%;
+    margin-top: 50px; /* 条件２ */
   }
   .step {
-    width: 90%;
+    width: 90%; /* 条件４ */
     margin-bottom: 20px;
+    /* 条件６ */
   }
   .step:last-child {
-    margin-bottom: 50px;
+    margin-bottom: 50px; /* 条件７ */
   }
   .img1 {
     background-position: center;
+    height: 150px; /* 条件３ */
   }
   .img2 {
     background-position: center;
+    height: 150px; /* 条件３ */
   }
   .img3 {
     background-position: center;
+    height: 150px; /* 条件３ */
+  }
+  .footer {
+    height: 50px; /* 条件８ */
   }
 }
